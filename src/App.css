@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.body{
+  display: flex;
+  align-items: center;
+  
+}
+.maintDiv{
+  background-color: rgb(70, 146, 233);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.parent{
+  border: 2px solid white;
+  width: 500px;
+}
+.Header{
+  color: white;
+  margin: 30px;
+  text-align: center;
+}
+
+.logiStatusMsg{
+  color: white;
+  font-weight: bold;
+}
+
+
