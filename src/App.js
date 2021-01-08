@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Button from './Components/Button';
 import Input from './Components/Input';
@@ -31,17 +30,6 @@ function App() {
         console.log(err);       
       });
      
-  }
-
-  function setvaluefunc(type , e) {
-    if(type==="username")
-    {
-      setusername(e.target.value);
-    }
-    else
-    {
-      setpassword(e.target.value);
-    }
   }
   
   return (
